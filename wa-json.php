@@ -5,7 +5,7 @@ header('Content-Type: application/json');
 
 $nonesuch = $_GET["nonesuch"];
 
-$appid = $_GET["appid"]; // http://api.wolframalpha.com/v2/query?input=pi&appid=RPEPX4-JT84RKELAT
+$appid = $_GET["appid"];
 $input = $_GET["input"];
 
 if ($appid === $nonesuch) {
